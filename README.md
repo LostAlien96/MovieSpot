@@ -65,5 +65,5 @@ It allows users to explore trending movies, top-rated films, search any movie, v
 
  1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/moviespot.git
+git clone https://github.com/LostAlien96/MovieSpot.git
 cd moviespot
