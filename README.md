@@ -4,6 +4,7 @@ MovieSpot is a full-featured IMDb-inspired movie discovery platform built using 
 It allows users to explore trending movies, top-rated films, search any movie, view detailed information including trailers, cast with character names, similar movie recommendations, and explore actor profiles — all within a single-page experience.
 
 ---
+https://moviespot-sh5vv3wu2garxypb6dcktd.streamlit.app/ ->Try it Here
 
  🚀 Features
 
