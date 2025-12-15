@@ -6,7 +6,7 @@ from requests.adapters import HTTPAdapter
 # ================= CONFIG =================
 st.set_page_config(page_title="MovieSpot", layout="wide")
 
-TMDB_API_KEY = "2ff5c76fc5ae03868d5b884796e50406"
+TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 BASE = "https://api.themoviedb.org/3"
 IMG = "https://image.tmdb.org/t/p/w500"
 PLACEHOLDER = "https://via.placeholder.com/500x750?text=No+Image"
@@ -209,3 +209,4 @@ elif st.session_state.page == "person":
     person_page()
 elif st.session_state.page == "top250":
     top250()
+
