@@ -5,6 +5,34 @@ from requests.adapters import HTTPAdapter
 
 # ================= CONFIG =================
 st.set_page_config(page_title="MovieSpot", layout="wide")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: 
+            linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+            url("https://wall.alphacoders.com/big.php?i=445161");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    /* Make containers slightly transparent */
+    section[data-testid="stSidebar"],
+    div[data-testid="stVerticalBlock"] {
+        background-color: rgba(0, 0, 0, 0.55);
+        border-radius: 12px;
+        padding: 10px;
+    }
+
+    /* Improve text readability */
+    h1, h2, h3, h4, h5, h6, p, span, label {
+        color: #ffffff !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 BASE = "https://api.themoviedb.org/3"
@@ -209,4 +237,5 @@ elif st.session_state.page == "person":
     person_page()
 elif st.session_state.page == "top250":
     top250()
+
 
