@@ -11,7 +11,7 @@ st.markdown(
     .stApp {
         background: 
             linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-            url("https://wall.alphacoders.com/big.php?i=445161");
+            url("https://images5.alphacoders.com/445/thumb-1920-445161.jpg");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -237,5 +237,6 @@ elif st.session_state.page == "person":
     person_page()
 elif st.session_state.page == "top250":
     top250()
+
 
 
